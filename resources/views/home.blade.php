@@ -16,7 +16,7 @@
                                     <p class="card-text">{{ $product->description }}</p>
                                     <p>${{ $product->price }}</p>
                                 </div>
-                                <button class="btn btn-primary">Buy</button>
+                                <button class="btn btn-primary">Pay</button>
                             </div>
                         </div>
                     @endforeach
