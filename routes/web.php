@@ -19,6 +19,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::get('/home', [App\Http\Controllers\ProductController::class, 'index'])->name('product');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/pizza', [App\Http\Controllers\PizzaController::class, 'index'])->name('pizza.index');
