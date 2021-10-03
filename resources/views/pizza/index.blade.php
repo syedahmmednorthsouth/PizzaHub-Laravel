@@ -18,7 +18,7 @@
 
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Pizza</div>
+                <div class="card-header">Pizzas</div>
 
                 <div class="card-body">
                     <div class="form-group">
