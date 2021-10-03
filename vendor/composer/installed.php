@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ae6bc586b43b94f4df5306bf7ef78d696f42e4ce',
+        'reference' => '49fedc3dcbd882f228dbeb26fb23356b9e688634',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -120,6 +120,15 @@
             'aliases' => array(),
             'reference' => '271d384d216e5e5c468a6b28feedf95d49f83b35',
             'dev_requirement' => true,
+        ),
+        'fideloper/proxy' => array(
+            'pretty_version' => '4.4.1',
+            'version' => '4.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fideloper/proxy',
+            'aliases' => array(),
+            'reference' => 'c073b2bd04d1c90e04dc1b787662b558dd65ade0',
+            'dev_requirement' => false,
         ),
         'filp/whoops' => array(
             'pretty_version' => '2.14.3',
@@ -391,7 +400,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ae6bc586b43b94f4df5306bf7ef78d696f42e4ce',
+            'reference' => '49fedc3dcbd882f228dbeb26fb23356b9e688634',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
