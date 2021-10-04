@@ -40,8 +40,12 @@
                                         <td>{{ $pizza->medium_pizza_price }}</td>
                                         <td>{{ $pizza->large_pizza_price }}</td>
                                         <td><button class="btn btn-primary">Edit</button></td>
-                                        <td><button class="btn btn-danger">Delete</button></td>
-                                    </tr>
+                                        <td>
+                                        <form action="{{route('pizza.delete')}}" method="post">@csrf
+
+                                            <button class="btn btn-danger" type="submit">Delete</button></td>
+                                        </form>
+                                        </tr>
                                 @endforeach
 
                             </tbody>

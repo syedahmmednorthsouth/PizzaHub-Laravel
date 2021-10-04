@@ -92,6 +92,6 @@ class PizzaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Pizza::whereIn('id',[2,3])->delete();
     }
 }
