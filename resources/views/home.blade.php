@@ -6,7 +6,7 @@
             <div class="col-md-12">
 
                 <div class="card">
-                    <div class="card-header">Your Orders
+                    <div class="card-header">Your Order History
                        
                     </div>
                     <div class="card-body">

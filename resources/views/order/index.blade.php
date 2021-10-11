@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row ">
             <div class="col-md-12">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -10,10 +10,10 @@
                     </ol>
                 </nav>
 
-                <div class="card">
+                <div class="card ">
                     <div class="card-header">order
-                        <a style="float:right;" href="{{route('pizza.index')}}">View Pizza</a>
-                        <a style="float:right;" href="{{route('pizza.create')}}">Create Pizza</a>
+                        <a style="float:right;" href="{{route('pizza.index')}}"><button class="bnt btn-secondary btn-sm" style="margin-left: 5px;">View Pizza</button></a>
+                        <a style="float:right;" href="{{route('pizza.create')}}"><button class="bnt btn-secondary btn-sm">Add new Pizza</button></a>
     
                     </div>
                     <div class="card-body">
@@ -32,7 +32,7 @@
                                     <th scope="col">Status</th>
                                     <th scope="col">Accept</th>
                                     <th scope="col">Reject</th>
-                                    <th scope="col">Completed</th>
+                                    <th scope="col">Order<br>Completed</th>
                                 </tr>
                             </thead>
                             <tbody>
