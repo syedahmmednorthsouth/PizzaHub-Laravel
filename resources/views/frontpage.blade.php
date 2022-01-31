@@ -25,7 +25,21 @@
                     
                        
                     </div>
+
                 </div>
+                  <div class="card card-body mt-3">
+                  Hey guys, Please support me by giving 5 star.
+                  if you want to learn Laravel by developing other real world projects then check out my other laravel course.
+                  <a href="https://www.udemy.com/user/4f9778a0-ecef-4eac-84ce-bf0522c23e4a/" target="_blank">
+                  See courses
+                  </a>
+                  If you need discount coupons please message on udemy.
+
+                  Subscribe my youtube channel for new course free coupons and free laravel php videos
+                  <a href=" <a href="https://www.youtube.com/channel/UCTeyfGKHPCXLNQHuY3Yb3gA" target="_blank">
+                  Youtube
+                  </a>"
+                  </div>
             </div>
 
             <div class="col-md-8">
